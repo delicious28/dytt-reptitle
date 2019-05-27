@@ -73,10 +73,13 @@ function handleGetMovieDetails(cheerio, uri, config) {
  * @returns {Promise} movieDetails
  */
 module.exports = (config) => {
-    config = config || { page: 1, include: DEFAULT_INCLUDE };
+    config = config || { page: 1, skip: 0, include: DEFAULT_INCLUDE };
     if (!config.page) throw Error('Config.page is required');
+    if (config.skip < 0) throw Error("Skip must be greater than 0");
+    if (config.page < 1) throw Error("Page must be greater than 1");
+
     let pool = [];
-    for (let i = 0; i < config.page; i++) {
+    for (let i = config.skip; i < config.page; i++) {
         pool.push(limit(() =>
             fetch({...options(`https://www.dytt8.net/html/gndy/dyzz/list_23_${i + 1}.html`) })
             .then($ => handleGetMovieDetailPageLinks($))
