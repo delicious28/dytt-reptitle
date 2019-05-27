@@ -7,6 +7,13 @@
 
 [![NPM](https://nodei.co/npm/dytt-reptitle.png?downloads=true&stars=true)](https://nodei.co/npm/dytt-reptitle)
 
+## Tip 
+
+这是修复过的版本，原先版本有bug，我Fork了一下修复。  
+1.修复了设置page无效的bug  
+2.修复了获取的链接不是真正的下载链接的bug  
+3.增加了skip功能  
+
 ## Install
 
 ```bash
@@ -41,6 +48,7 @@ dyttReptitle(options).then(res => {
 | param | Description | Type | Required
 | --- | --- | --- | --- |
 | page | crawl page number | Number | true |
+| skip | skip page number | Number | false |
 | include | needed data | Array | false |
 
 ### include
