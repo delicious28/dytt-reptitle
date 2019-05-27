@@ -35,6 +35,7 @@ dyttReptitle().then(res => {
 // example
 const config = {
   page: 1,
+  skip: 0,
   include: [ 'title', 'imgUrl', 'desc', 'downloadLink', 'descPageLink' ]
 };
 
