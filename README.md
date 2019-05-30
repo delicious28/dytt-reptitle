@@ -10,6 +10,7 @@
 [原作者项目地址](https://github.com/HuangXiZhou/dytt-reptitle)  
 
 本版本是Fork原作者过来的,我发现这个版本有bug时,已经提交了PR给原作者,但原作者一直没有处理,可能是没有时间吧。所以我修复后更新了一个新的包。感谢原作者[HuangXiZhou](https://github.com/HuangXiZhou)的贡献。  
+  
 1.修复了设置page无效的bug  
 2.修复了获取的链接不是真正的下载链接的bug  
 3.增加了跳页(skip)扒取数据的功能  
