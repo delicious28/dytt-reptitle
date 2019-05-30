@@ -1,29 +1,29 @@
-# dytt-reptitle
+# dytt-reptitle-v2
 
 >dytt8.net reptile
 
-[![npm](https://img.shields.io/badge/npm-v1.0.3-brightgreen.svg)](https://www.npmjs.com/package/dytt-reptitle) [![Build Status](https://travis-ci.org/HuangXiZhou/dytt-reptitle.svg?branch=master)](https://travis-ci.org/HuangXiZhou/dytt-reptitle)
-[![codecov](https://codecov.io/gh/HuangXiZhou/dytt-reptitle/branch/master/graph/badge.svg)](https://codecov.io/gh/HuangXiZhou/dytt-reptitle)
+[![npm](https://img.shields.io/badge/npm-v1.0.3-brightgreen.svg)](https://www.npmjs.com/package/dytt-reptitle-v) [!
 
-[![NPM](https://nodei.co/npm/dytt-reptitle.png?downloads=true&stars=true)](https://nodei.co/npm/dytt-reptitle)
+[![NPM](https://nodei.co/npm/dytt-reptitle.png?downloads=true&stars=true)](https://nodei.co/npm/dytt-reptitle-v2)
 
 ## Tip 
+原先版本:https://github.com/HuangXiZhou/dytt-reptitle  
 
-这是修复过的版本，原先版本有bug，我Fork了一下修复。  
+本版本是Fork原作者过来的,我发现这个版本有bug时,已经提交了PR给原作者,但原作者一直没有处理,可能是没有时间吧。所以我修复后更新了一个新的包。感谢原作者HuangXiZhou的贡献。  
 1.修复了设置page无效的bug  
 2.修复了获取的链接不是真正的下载链接的bug  
-3.增加了skip功能  
+3.增加了跳页(skip)扒取数据的功能  
 
 ## Install
 
 ```bash
-npm install dytt-reptitle
+npm install dytt-reptitle-v2
 ```
 
 ## Usage
 
 ```js
-const dyttReptitle = require('dytt-reptitle');
+const dyttReptitle = require('dytt-reptitle-v2');
 dyttReptitle().then(res => {
   // do what you want...
 });
@@ -39,7 +39,7 @@ const config = {
   include: [ 'title', 'imgUrl', 'desc', 'downloadLink', 'descPageLink' ]
 };
 
-dyttReptitle(options).then(res => {
+dyttReptitle(config).then(res => {
   // do what you want...
 });
 ```
@@ -75,7 +75,7 @@ dyttReptitle(options).then(res => {
 ## Uninstall
 
 ```bash
-npm uninstall dytt-reptitle
+npm uninstall dytt-reptitle-v2
 ```
 
 ## License
