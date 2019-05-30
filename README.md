@@ -69,10 +69,10 @@ dyttReptitle(config).then(res => {
 ### Response example
 
 ```js
-[{ title: '2018年悬疑《拉普拉斯的魔女》BD日语中字',
-  imgUrl: 'https://extraimage.net/images/2018/12/04/103eda9e26f1028d9cc99f4a10c84b83.jpg',
-  downloadLink: 'ftp://ygdy8:ygdy8@yg45.dydytt.net:8363/阳光电影www.ygdy8.com.拉普拉斯的魔女.BD.720p.日语中字.mkv',
-  descPageLink: 'https://www.dytt8.net/html/gndy/dyzz/20181204/57892.html'
+[{ title: '2019年剧情战争《兰开斯特的天空》BD中英双字幕',
+  imgUrl: 'https://extraimage.net/images/2019/05/25/aea98d0038576db1158830d3c82cc888.jpg',
+  downloadLink: 'magnet:?xt=urn:btih:8dd1ccb0dedeaaacf78e4ae0d97bf88dfca8d060&dn=%e9%98%b3%e5%85%89%e7%94%b5%e5%bd%b1www.ygdy8.com.%e5%85%b0%e5%bc%80%e6%96%af%e7%89%b9%e7%9a%84%e5%a4%a9%e7%a9%ba.BD.720p.%e4%b8%ad%e8%8b%b1%e5%8f%8c%e5%ad%97%e5%b9%95.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fthetracker.org%3a80%2fannounce&tr=http%3a%2f%2fretracker.telecom.by%2fannounce',
+  descPageLink: 'https://www.dytt8.net/html/gndy/dyzz/20190525/58637.html'
 }]
 ```
 
