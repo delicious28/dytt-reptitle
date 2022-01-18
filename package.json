@@ -1,37 +1,28 @@
 {
-    "name": "dytt-reptitle-v2",
-    "version": "1.0.5",
-    "description": "电影天堂爬虫(v2版本)",
+    "name": "dytt-reptitle-v3",
+    "version": "1.0.0",
+    "description": "电影天堂爬虫(v3版本)",
     "main": "index.js",
     "scripts": {
-        "lint": "eslint . --fix",
-        "test": "jest . --cache --silent",
-        "cov": "jest . --cache --coverage --silent",
-        "ci": "npm run lint && npm run cov",
-        "codecov": "cat ./coverage/lcov.info | codecov"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run lint && npm run test"
-        }
+
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luchenwei9266/dytt-reptitle.git"
+        "url": "git+https://github.com/delicious28/dytt-reptitle.git"
     },
     "keywords": [
         "Node.js",
         "Reptitle"
     ],
-    "author": "lugege9266@gmail.com",
+    "author": "delicious28@gmail.com",
     "license": "MIT",
     "bin": {
         "reptitle": "./index.js"
     },
     "bugs": {
-        "url": "https://github.com/luchenwei9266/dytt-reptitle/issues"
+        "url": "https://github.com/delicious28/dytt-reptitle/issues"
     },
-    "homepage": "https://github.com/luchenwei9266/dytt-reptitle#readme",
+    "homepage": "https://github.com/delicious28/dytt-reptitle#readme",
     "dependencies": {
         "bluebird": "^3.5.3",
         "cheerio": "^1.0.0-rc.2",
